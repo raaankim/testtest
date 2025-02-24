@@ -29,6 +29,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
 
     runtimeOnly 'org.postgresql:postgresql'
+    runtimeOnly 'com.h2database:h2'
     // AZURE
     // https://mvnrepository.com/artifact/com.azure.spring/spring-cloud-azure-starter-jdbc-postgresql
     implementation group: 'com.azure.spring', name: 'spring-cloud-azure-starter-jdbc-postgresql', version: '5.20.0'
